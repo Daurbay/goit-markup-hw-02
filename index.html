@@ -8,42 +8,45 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"/>
     <link rel="stylesheet" href="./css/styles.css"/>
 </head>
 <body>
     <!--Header-->
     <header class="page-header">
-        <nav>
+        <div class="container header-container">
+        <nav class="navigation">
             <a class="logo link" href="Web">Web<span class="link-logo-black">Studio</span></a>
-                <ul class="menu list">
-                    <li class="menu-item">
-                        <a class="menu-link link" href="">Студия</a>
-                    </li>
-                    <li class="menu-item">
-                        <a class="menu-link link" href="">Портфолио</a>
-                    </li>
-                    <li class="menu-item">
-                        <a class="menu-link link" href="">Контакты</a>
-                    </li>
+                <ul class="menu-list list">
+                <li class="menu-item">
+                <a class="menu-link link" href="">Студия</a>
+                </li>
+                <li class="menu-item">
+                <a class="menu-link link" href="./portfolio.html">Портфолио</a>
+                </li>
+                <li class="menu-item">
+                <a class="menu-link link" href="">Контакты</a>
+                </li>
                 </ul>
         </nav>
         <ul class="header-contacts list">
         <li><a class="phone-number link" href="tel:+380961111111">+38 096 111 11 11</a></li>
         <li><a class="email link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
         </ul>
+        </div>
     </header>
     <!--HERO-->
     <main>
         <section class="main-section">
-            <div class="main-section-div">
+            <div class="container main-section-div">
                 <h1 class="main-title">Эффективные решения для вашего бизнеса</h1>
                 <button class="modal-btn" type="button">Заказать услугу</button>
             </div>
         </section>
         <!--Our features-->
         <section class="our-features">
-            <div class="our-features-div">
-                <ul class="our-features list">
+            <div class="our-features-div container">
+                <ul class="our-features-list list">
                     <li class="our-features-item">
                         <h3 class="features-title">Внимание к деталям</h3>
                         <p class="description">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
@@ -65,8 +68,9 @@
         <!--Our business-->
         </section>
         <section class="our-business-section">
+            <div class="our-business-div container">
         <h2 class="business-section-title">Чем мы занимаемся</h2>
-        <ul class="list">
+        <ul class="business-section-list list">
             <li>
                 <img class="bussines-section-image" src="./images/our_works/img1.jpg" alt="laptop" width="370" height="294"/>
             </li>
@@ -77,38 +81,44 @@
                 <img class="bussines-section-image" src="./images/our_works/img3.jpg" alt="tab" width="370" height="294"/>
             </li>
         </ul>
+        </div>
         </section>
         <!--Our team-->
         <section class="our-team-section">
+            <div class="our-team-section-div container">
             <h2 class="our-team-title">Наша команда</h2>
             <ul class="our-team list">
-                <li>
+                <li class="our-team-item">
                     <img class="our-team-img" src="./images/our_team/img1.jpg" alt="Игорь Демьяненко" width="270" height="260"/>
+                    <div class="our-teams-person-info">
                     <h3 class="our-teams-person-title">Игорь Демьяненко</h3>
                     <p class="our-teams-person-desсription">Product Designer</p>
+                    </div>
                 </li>
-                <li>
+                <li class="our-team-item">
                     <img class="our-team-img" src="./images/our_team/img2.jpg" alt="Ольга Репина" width="270" height="260"/>
                     <h3 class="our-teams-person-title">Ольга Репина</h3>
                     <p class="our-teams-person-desсription">Frontend Developer</p>
                 </li>
-                <li>
+                <li class="our-team-item">
                     <img class="our-team-img" src="./images/our_team/img3.jpg" alt="Николай Тарасов" width="270" height="260"/>
                     <h3 class="our-teams-person-title">Николай Тарасов</h3>
                     <p class="our-teams-person-desсription">Marketing</p>
                 </li>
-                <li>
+                <li class="our-team-item">
                     <img class="our-team-img" src="./images/our_team/img4.jpg" alt="Михаил Ермаков" width="270" height="260"/>
                     <h3 class="our-teams-person-title">Михаил Ермаков</h3>
                     <p class="our-teams-person-desсription">UI Designer</p>
                 </li>
             </ul>
+        </div>
         </section>
     </main>
-    <footer class="Footer-section">
+    <footer class="footer-section">
+        <div class="footer-section-div container">
         <a class="logo link" href="Web">Web<span class="link-logo-white">Studio</span></a>
         <address class="contacts">
-            <ul class="contacts-list link list">
+        <ul class="contacts-list link list">
             <li class="contacts-item">
                 <a class="contacts-adress link" href="https://goo.gl/maps/FWrBWn9DCKe6x9mS8" 
                 target="_blank" 
@@ -122,6 +132,7 @@
             </li>
             </ul>
         </address>
+    </div>
     </footer>
 </body>
 </html>
