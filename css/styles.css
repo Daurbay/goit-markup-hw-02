@@ -399,7 +399,11 @@ color: #757575;
 }
 
 .project-list-item-info{
-    margin: 20px 24px 20px 24px;
+    padding: 20px 24px 20px 24px;
+    background: #FFFFFF;
+    border-right: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
+    border-left: 1px solid #EEEEEE;
 }
 
 .projects-list-item {
