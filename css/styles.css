@@ -1,4 +1,4 @@
-.link{
+.link {
     text-decoration: none;
 }
 .list{
@@ -160,8 +160,8 @@ color: #757575;
         line-height: 1.87;
         text-align: center;
         letter-spacing: 0.06em;
-        background-color: #2196F3;
         cursor: pointer;
+        background-color: #2196F3;
         padding: 10px 32px 10px 32px;
         display: inline-block;
         border-radius: 4px;
@@ -170,7 +170,7 @@ color: #757575;
     }
     .modal-btn:hover,
     .modal-btn:focus{
-        background-color: #1a67a7;
+        background-color: #188CE8;
         color: #FFFFFF;
     }
 
